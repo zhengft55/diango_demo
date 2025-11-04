@@ -31,5 +31,6 @@ urlpatterns = [
     path('cbv/', include('cbv.urls', namespace="cbv")),
     path('mymiddleware/', include('mymiddleware.urls', namespace="mymiddleware")),
     path('student/', include('student.urls', namespace="student")),
+    path('redis/', include('redis_demo.urls', namespace="redis_demo")),
 
 ]

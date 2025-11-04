@@ -16,8 +16,8 @@ Including another URLconf
 """
 from django.urls import path, re_path
 
-from student import views
-app_name = "student"
+from redis_demo import views
+app_name = "redis_demo"
 urlpatterns = [
     path('index/', views.index, name="index"),
 ]
